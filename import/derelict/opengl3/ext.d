@@ -356,34 +356,34 @@ extern(System)
     alias nothrow void function(GLuint, GLint, GLsizei, GLboolean, const(GLdouble)*) da_glProgramUniformMatrix4x2dvEXT;
     alias nothrow void function(GLuint, GLint, GLsizei, GLboolean, const(GLdouble)*) da_glProgramUniformMatrix4x3dvEXT;
     alias nothrow void function(GLuint, GLuint, GLint, GLenum, GLsizei, GLintptr) da_glVertexArrayVertexOffsetEXT;
-	alias nothrow void function(GLuint, GLuint, GLint, GLenum, GLsizei, GLintptr) da_glVertexArrayColorOffsetEXT;
-	alias nothrow void function(GLuint, GLuint, GLsizei, GLintptr) da_glVertexArrayEdgeFlagOffsetEXT;
-	alias nothrow void function(GLuint, GLuint, GLenum, GLsizei, GLintptr) da_glVertexArrayIndexOffsetEXT;
-	alias nothrow void function(GLuint, GLuint, GLenum, GLsizei, GLintptr) da_glVertexArrayNormalOffsetEXT;
-	alias nothrow void function(GLuint, GLuint, GLint, GLenum, GLsizei, GLintptr) da_glVertexArrayTexCoordOffsetEXT;
-	alias nothrow void function(GLuint, GLuint, GLenum, GLint, GLenum, GLsizei, GLintptr) da_glVertexArrayMultiTexCoordOffsetEXT;
-	alias nothrow void function(GLuint, GLuint, GLenum, GLsizei, GLintptr) da_glVertexArrayFogCoordOffsetEXT;
-	alias nothrow void function(GLuint, GLuint, GLint, GLenum, GLsizei, GLintptr) da_glVertexArraySecondaryColorOffsetEXT;
-	alias nothrow void function(GLuint, GLuint, GLuint, GLint, GLenum, GLboolean normalized, GLsizei, GLintptr) da_glVertexArrayVertexAttribOffsetEXT;
-	alias nothrow void function(GLuint, GLuint, GLuint, GLint, GLenum, GLsizei, GLintptr) da_glVertexArrayVertexAttribIOffsetEXT;
-	alias nothrow void function(GLuint, GLenum) da_glEnableVertexArrayEXT;
-	alias nothrow void function(GLuint, GLenum) da_glDisableVertexArrayEXT;
-	alias nothrow void function(GLuint, GLuint) da_glEnableVertexArrayAttribEXT;
-	alias nothrow void function(GLuint, GLuint) da_glDisableVertexArrayAttribEXT;
-	alias nothrow void function(GLuint, GLenum, GLint*) da_glGetVertexArrayIntegervEXT;
-	alias nothrow void function(GLuint, GLenum, GLvoid**) da_glGetVertexArrayPointervEXT;
-	alias nothrow void function(GLuint, GLuint, GLenum, GLint*) da_glGetVertexArrayIntegeri_vEXT;
-	alias nothrow void function(GLuint, GLuint, GLenum, GLvoid**) da_glGetVertexArrayPointeri_vEXT;
-	alias nothrow void function(GLenum, GLuint) da_glEnableClientStateiEXT;
+    alias nothrow void function(GLuint, GLuint, GLint, GLenum, GLsizei, GLintptr) da_glVertexArrayColorOffsetEXT;
+    alias nothrow void function(GLuint, GLuint, GLsizei, GLintptr) da_glVertexArrayEdgeFlagOffsetEXT;
+    alias nothrow void function(GLuint, GLuint, GLenum, GLsizei, GLintptr) da_glVertexArrayIndexOffsetEXT;
+    alias nothrow void function(GLuint, GLuint, GLenum, GLsizei, GLintptr) da_glVertexArrayNormalOffsetEXT;
+    alias nothrow void function(GLuint, GLuint, GLint, GLenum, GLsizei, GLintptr) da_glVertexArrayTexCoordOffsetEXT;
+    alias nothrow void function(GLuint, GLuint, GLenum, GLint, GLenum, GLsizei, GLintptr) da_glVertexArrayMultiTexCoordOffsetEXT;
+    alias nothrow void function(GLuint, GLuint, GLenum, GLsizei, GLintptr) da_glVertexArrayFogCoordOffsetEXT;
+    alias nothrow void function(GLuint, GLuint, GLint, GLenum, GLsizei, GLintptr) da_glVertexArraySecondaryColorOffsetEXT;
+    alias nothrow void function(GLuint, GLuint, GLuint, GLint, GLenum, GLboolean normalized, GLsizei, GLintptr) da_glVertexArrayVertexAttribOffsetEXT;
+    alias nothrow void function(GLuint, GLuint, GLuint, GLint, GLenum, GLsizei, GLintptr) da_glVertexArrayVertexAttribIOffsetEXT;
+    alias nothrow void function(GLuint, GLenum) da_glEnableVertexArrayEXT;
+    alias nothrow void function(GLuint, GLenum) da_glDisableVertexArrayEXT;
+    alias nothrow void function(GLuint, GLuint) da_glEnableVertexArrayAttribEXT;
+    alias nothrow void function(GLuint, GLuint) da_glDisableVertexArrayAttribEXT;
+    alias nothrow void function(GLuint, GLenum, GLint*) da_glGetVertexArrayIntegervEXT;
+    alias nothrow void function(GLuint, GLenum, GLvoid**) da_glGetVertexArrayPointervEXT;
+    alias nothrow void function(GLuint, GLuint, GLenum, GLint*) da_glGetVertexArrayIntegeri_vEXT;
+    alias nothrow void function(GLuint, GLuint, GLenum, GLvoid**) da_glGetVertexArrayPointeri_vEXT;
+    alias nothrow void function(GLenum, GLuint) da_glEnableClientStateiEXT;
     alias nothrow void function(GLenum, GLuint) da_glDisableClientStateiEXT;
-	alias nothrow void function(GLenum, GLuint, GLfloat*) da_glGetFloati_vEXT;
+    alias nothrow void function(GLenum, GLuint, GLfloat*) da_glGetFloati_vEXT;
     alias nothrow void function(GLenum, GLuint, GLdouble*) da_glGetDoublei_vEXT;
     alias nothrow void function(GLenum, GLuint, GLvoid**) da_glGetPointeri_vEXT;
-	alias nothrow void function(GLenum cap, GLuint index) da_glEnableIndexedEXT;
+    alias nothrow void function(GLenum cap, GLuint index) da_glEnableIndexedEXT;
     alias nothrow void function(GLenum cap, GLuint index) da_glDisableIndexedEXT;
-	alias nothrow GLboolean function(GLenum target, GLuint index) da_glIsEnabledIndexedEXT;
-	alias nothrow void function(GLenum target, GLuint index, GLint *params) da_glGetIntegerIndexedvEXT;
-	alias nothrow void function(GLenum target, GLuint index, GLboolean *params) da_glGetBooleanIndexedvEXT;
+    alias nothrow GLboolean function(GLenum target, GLuint index) da_glIsEnabledIndexedEXT;
+    alias nothrow void function(GLenum target, GLuint index, GLint *params) da_glGetIntegerIndexedvEXT;
+    alias nothrow void function(GLenum target, GLuint index, GLboolean *params) da_glGetBooleanIndexedvEXT;
 }
 
 __gshared
@@ -594,35 +594,35 @@ __gshared
     da_glProgramUniformMatrix3x4dvEXT glProgramUniformMatrix3x4dvEXT;
     da_glProgramUniformMatrix4x2dvEXT glProgramUniformMatrix4x2dvEXT;
     da_glProgramUniformMatrix4x3dvEXT glProgramUniformMatrix4x3dvEXT;
-	da_glVertexArrayVertexOffsetEXT glVertexArrayVertexOffsetEXT;
-	da_glVertexArrayColorOffsetEXT glVertexArrayColorOffsetEXT;
-	da_glVertexArrayEdgeFlagOffsetEXT glVertexArrayEdgeFlagOffsetEXT;
-	da_glVertexArrayIndexOffsetEXT glVertexArrayIndexOffsetEXT;
-	da_glVertexArrayNormalOffsetEXT glVertexArrayNormalOffsetEXT;
-	da_glVertexArrayTexCoordOffsetEXT glVertexArrayTexCoordOffsetEXT;
-	da_glVertexArrayMultiTexCoordOffsetEXT glVertexArrayMultiTexCoordOffsetEXT;
-	da_glVertexArrayFogCoordOffsetEXT glVertexArrayFogCoordOffsetEXT;
-	da_glVertexArraySecondaryColorOffsetEXT glVertexArraySecondaryColorOffsetEXT;
-	da_glVertexArrayVertexAttribOffsetEXT glVertexArrayVertexAttribOffsetEXT;
-	da_glVertexArrayVertexAttribIOffsetEXT glVertexArrayVertexAttribIOffsetEXT;
-	da_glEnableVertexArrayEXT glEnableVertexArrayEXT;
-	da_glDisableVertexArrayEXT glDisableVertexArrayEXT;
-	da_glEnableVertexArrayAttribEXT glEnableVertexArrayAttribEXT;
-	da_glDisableVertexArrayAttribEXT glDisableVertexArrayAttribEXT;
-	da_glGetVertexArrayIntegervEXT glGetVertexArrayIntegervEXT;
-	da_glGetVertexArrayPointervEXT glGetVertexArrayPointervEXT;
-	da_glGetVertexArrayIntegeri_vEXT glGetVertexArrayIntegeri_vEXT;
-	da_glGetVertexArrayPointeri_vEXT glGetVertexArrayPointeri_vEXT;
-	da_glEnableClientStateiEXT glEnableClientStateiEXT;
+    da_glVertexArrayVertexOffsetEXT glVertexArrayVertexOffsetEXT;
+    da_glVertexArrayColorOffsetEXT glVertexArrayColorOffsetEXT;
+    da_glVertexArrayEdgeFlagOffsetEXT glVertexArrayEdgeFlagOffsetEXT;
+    da_glVertexArrayIndexOffsetEXT glVertexArrayIndexOffsetEXT;
+    da_glVertexArrayNormalOffsetEXT glVertexArrayNormalOffsetEXT;
+    da_glVertexArrayTexCoordOffsetEXT glVertexArrayTexCoordOffsetEXT;
+    da_glVertexArrayMultiTexCoordOffsetEXT glVertexArrayMultiTexCoordOffsetEXT;
+    da_glVertexArrayFogCoordOffsetEXT glVertexArrayFogCoordOffsetEXT;
+    da_glVertexArraySecondaryColorOffsetEXT glVertexArraySecondaryColorOffsetEXT;
+    da_glVertexArrayVertexAttribOffsetEXT glVertexArrayVertexAttribOffsetEXT;
+    da_glVertexArrayVertexAttribIOffsetEXT glVertexArrayVertexAttribIOffsetEXT;
+    da_glEnableVertexArrayEXT glEnableVertexArrayEXT;
+    da_glDisableVertexArrayEXT glDisableVertexArrayEXT;
+    da_glEnableVertexArrayAttribEXT glEnableVertexArrayAttribEXT;
+    da_glDisableVertexArrayAttribEXT glDisableVertexArrayAttribEXT;
+    da_glGetVertexArrayIntegervEXT glGetVertexArrayIntegervEXT;
+    da_glGetVertexArrayPointervEXT glGetVertexArrayPointervEXT;
+    da_glGetVertexArrayIntegeri_vEXT glGetVertexArrayIntegeri_vEXT;
+    da_glGetVertexArrayPointeri_vEXT glGetVertexArrayPointeri_vEXT;
+    da_glEnableClientStateiEXT glEnableClientStateiEXT;
     da_glDisableClientStateiEXT glDisableClientStateiEXT;
-	da_glGetFloati_vEXT glGetFloati_vEXT;
+    da_glGetFloati_vEXT glGetFloati_vEXT;
     da_glGetDoublei_vEXT glGetDoublei_vEXT;
     da_glGetPointeri_vEXT glGetPointeri_vEXT;
-	da_glEnableIndexedEXT glEnableIndexedEXT;
+    da_glEnableIndexedEXT glEnableIndexedEXT;
     da_glDisableIndexedEXT glDisableIndexedEXT;
-	da_glIsEnabledIndexedEXT glIsEnabledIndexedEXT;
-	da_glGetIntegerIndexedvEXT glGetIntegerIndexedvEXT;
-	da_glGetBooleanIndexedvEXT glGetBooleanIndexedvEXT;
+    da_glIsEnabledIndexedEXT glIsEnabledIndexedEXT;
+    da_glGetIntegerIndexedvEXT glGetIntegerIndexedvEXT;
+    da_glGetBooleanIndexedvEXT glGetBooleanIndexedvEXT;
 }
 
 private __gshared bool _EXT_framebuffer_object;
@@ -662,295 +662,325 @@ private void load_EXT_direct_state_access(GLVersion glversion)
 {
     try
     {
-		if(glversion >= GLVersion.GL11) {
-			bindGLFunc(cast(void**)&glClientAttribDefaultEXT, "glClientAttribDefaultEXT");
-			bindGLFunc(cast(void**)&glPushClientAttribDefaultEXT, "glPushClientAttribDefaultEXT");
-			bindGLFunc(cast(void**)&glMatrixLoadfEXT, "glMatrixLoadfEXT");
-			bindGLFunc(cast(void**)&glMatrixLoaddEXT, "glMatrixLoaddEXT");
-			bindGLFunc(cast(void**)&glMatrixMultfEXT, "glMatrixMultfEXT");
-			bindGLFunc(cast(void**)&glMatrixMultdEXT, "glMatrixMultdEXT");
-			bindGLFunc(cast(void**)&glMatrixLoadIdentityEXT, "glMatrixLoadIdentityEXT");
-			bindGLFunc(cast(void**)&glMatrixRotatefEXT, "glMatrixRotatefEXT");
-			bindGLFunc(cast(void**)&glMatrixRotatedEXT, "glMatrixRotatedEXT");
-			bindGLFunc(cast(void**)&glMatrixScalefEXT, "glMatrixScalefEXT");
-			bindGLFunc(cast(void**)&glMatrixScaledEXT, "glMatrixScaledEXT");
-			bindGLFunc(cast(void**)&glMatrixTranslatefEXT, "glMatrixTranslatefEXT");
-			bindGLFunc(cast(void**)&glMatrixTranslatedEXT, "glMatrixTranslatedEXT");
-			bindGLFunc(cast(void**)&glMatrixOrthoEXT, "glMatrixOrthoEXT");
-			bindGLFunc(cast(void**)&glMatrixFrustumEXT, "glMatrixFrustumEXT");
-			bindGLFunc(cast(void**)&glMatrixPushEXT, "glMatrixPushEXT");
-			bindGLFunc(cast(void**)&glMatrixPopEXT, "glMatrixPopEXT");
-			bindGLFunc(cast(void**)&glTextureParameteriEXT, "glTextureParameteriEXT");
-			bindGLFunc(cast(void**)&glTextureParameterivEXT, "glTextureParameterivEXT");
-			bindGLFunc(cast(void**)&glTextureParameterfEXT, "glTextureParameterfEXT");
-			bindGLFunc(cast(void**)&glTextureParameterfvEXT, "glTextureParameterfvEXT");
-			bindGLFunc(cast(void**)&glTextureImage1DEXT, "glTextureImage1DEXT");
-			bindGLFunc(cast(void**)&glTextureImage2DEXT, "glTextureImage2DEXT");
-			bindGLFunc(cast(void**)&glTextureSubImage1DEXT, "glTextureSubImage1DEXT");
-			bindGLFunc(cast(void**)&glTextureSubImage2DEXT, "glTextureSubImage2DEXT");
-			bindGLFunc(cast(void**)&glCopyTextureImage1DEXT, "glCopyTextureImage1DEXT");
-			bindGLFunc(cast(void**)&glCopyTextureImage2DEXT, "glCopyTextureImage2DEXT");
-			bindGLFunc(cast(void**)&glCopyTextureSubImage1DEXT, "glCopyTextureSubImage1DEXT");
-			bindGLFunc(cast(void**)&glCopyTextureSubImage2DEXT, "glCopyTextureSubImage2DEXT");
-			bindGLFunc(cast(void**)&glGetTextureImageEXT, "glGetTextureImageEXT");
-			bindGLFunc(cast(void**)&glGetTextureParameterfvEXT, "glGetTextureParameterfvEXT");
-			bindGLFunc(cast(void**)&glGetTextureParameterivEXT, "glGetTextureParameterivEXT");
-			bindGLFunc(cast(void**)&glGetTextureLevelParameterfvEXT, "glGetTextureLevelParameterfvEXT");
-			bindGLFunc(cast(void**)&glGetTextureLevelParameterivEXT, "glGetTextureLevelParameterivEXT");
-		}
-		
-		if(glversion >= GLVersion.GL12) {
-			bindGLFunc(cast(void**)&glTextureImage3DEXT, "glTextureImage3DEXT");
-			bindGLFunc(cast(void**)&glTextureSubImage3DEXT, "glTextureSubImage3DEXT");
-			bindGLFunc(cast(void**)&glCopyTextureSubImage3DEXT, "glCopyTextureSubImage3DEXT");
-			bindGLFunc(cast(void**)&glBindMultiTextureEXT, "glBindMultiTextureEXT");
-			bindGLFunc(cast(void**)&glMultiTexCoordPointerEXT, "glMultiTexCoordPointerEXT");
-			bindGLFunc(cast(void**)&glMultiTexEnvfEXT, "glMultiTexEnvfEXT");
-			bindGLFunc(cast(void**)&glMultiTexEnvfvEXT, "glMultiTexEnvfvEXT");
-			bindGLFunc(cast(void**)&glMultiTexEnviEXT, "glMultiTexEnviEXT");
-			bindGLFunc(cast(void**)&glMultiTexEnvivEXT, "glMultiTexEnvivEXT");
-			bindGLFunc(cast(void**)&glMultiTexGendEXT, "glMultiTexGendEXT");
-			bindGLFunc(cast(void**)&glMultiTexGendvEXT, "glMultiTexGendvEXT");
-			bindGLFunc(cast(void**)&glMultiTexGenfEXT, "glMultiTexGenfEXT");
-			bindGLFunc(cast(void**)&glMultiTexGenfvEXT, "glMultiTexGenfvEXT");
-			bindGLFunc(cast(void**)&glMultiTexGeniEXT, "glMultiTexGeniEXT");
-			bindGLFunc(cast(void**)&glMultiTexGenivEXT, "glMultiTexGenivEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexEnvfvEXT, "glGetMultiTexEnvfvEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexEnvivEXT, "glGetMultiTexEnvivEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexGendvEXT, "glGetMultiTexGendvEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexGenfvEXT, "glGetMultiTexGenfvEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexGenivEXT, "glGetMultiTexGenivEXT");
-			bindGLFunc(cast(void**)&glMultiTexParameteriEXT, "glMultiTexParameteriEXT");
-			bindGLFunc(cast(void**)&glMultiTexParameterivEXT, "glMultiTexParameterivEXT");
-			bindGLFunc(cast(void**)&glMultiTexParameterfEXT, "glMultiTexParameterfEXT");
-			bindGLFunc(cast(void**)&glMultiTexParameterfvEXT, "glMultiTexParameterfvEXT");
-			bindGLFunc(cast(void**)&glMultiTexImage1DEXT, "glMultiTexImage1DEXT");
-			bindGLFunc(cast(void**)&glMultiTexImage2DEXT, "glMultiTexImage2DEXT");
-			bindGLFunc(cast(void**)&glMultiTexSubImage1DEXT, "glMultiTexSubImage1DEXT");
-			bindGLFunc(cast(void**)&glMultiTexSubImage2DEXT, "glMultiTexSubImage2DEXT");
-			bindGLFunc(cast(void**)&glCopyMultiTexImage1DEXT, "glCopyMultiTexImage1DEXT");
-			bindGLFunc(cast(void**)&glCopyMultiTexImage2DEXT, "glCopyMultiTexImage2DEXT");
-			bindGLFunc(cast(void**)&glCopyMultiTexSubImage1DEXT, "glCopyMultiTexSubImage1DEXT");
-			bindGLFunc(cast(void**)&glCopyMultiTexSubImage2DEXT, "glCopyMultiTexSubImage2DEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexImageEXT, "glGetMultiTexImageEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexParameterfvEXT, "glGetMultiTexParameterfvEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexParameterivEXT, "glGetMultiTexParameterivEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexLevelParameterfvEXT, "glGetMultiTexLevelParameterfvEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexLevelParameterivEXT, "glGetMultiTexLevelParameterivEXT");
-			bindGLFunc(cast(void**)&glMultiTexImage3DEXT, "glMultiTexImage3DEXT");
-			bindGLFunc(cast(void**)&glMultiTexSubImage3DEXT, "glMultiTexSubImage3DEXT");
-			bindGLFunc(cast(void**)&glCopyMultiTexSubImage3DEXT, "glCopyMultiTexSubImage3DEXT");
-			bindGLFunc(cast(void**)&glEnableClientStateIndexedEXT, "glEnableClientStateIndexedEXT");
-			bindGLFunc(cast(void**)&glDisableClientStateIndexedEXT, "glDisableClientStateIndexedEXT");
-			bindGLFunc(cast(void**)&glGetFloatIndexedvEXT, "glGetFloatIndexedvEXT");
-			bindGLFunc(cast(void**)&glGetDoubleIndexedvEXT, "glGetDoubleIndexedvEXT");
-			bindGLFunc(cast(void**)&glGetPointerIndexedvEXT, "glGetPointerIndexedvEXT");
-		}
-		
-		if(glversion >= GLVersion.GL13) {
-			bindGLFunc(cast(void**)&glCompressedTextureImage3DEXT, "glCompressedTextureImage3DEXT");
-			bindGLFunc(cast(void**)&glCompressedTextureImage2DEXT, "glCompressedTextureImage2DEXT");
-			bindGLFunc(cast(void**)&glCompressedTextureImage1DEXT, "glCompressedTextureImage1DEXT");
-			bindGLFunc(cast(void**)&glCompressedTextureSubImage3DEXT, "glCompressedTextureSubImage3DEXT");
-			bindGLFunc(cast(void**)&glCompressedTextureSubImage2DEXT, "glCompressedTextureSubImage2DEXT");
-			bindGLFunc(cast(void**)&glCompressedTextureSubImage1DEXT, "glCompressedTextureSubImage1DEXT");
-			bindGLFunc(cast(void**)&glGetCompressedTextureImageEXT, "glGetCompressedTextureImageEXT");
-			bindGLFunc(cast(void**)&glCompressedMultiTexImage3DEXT, "glCompressedMultiTexImage3DEXT");
-			bindGLFunc(cast(void**)&glCompressedMultiTexImage2DEXT, "glCompressedMultiTexImage2DEXT");
-			bindGLFunc(cast(void**)&glCompressedMultiTexImage1DEXT, "glCompressedMultiTexImage1DEXT");
-			bindGLFunc(cast(void**)&glCompressedMultiTexSubImage3DEXT, "glCompressedMultiTexSubImage3DEXT");
-			bindGLFunc(cast(void**)&glCompressedMultiTexSubImage2DEXT, "glCompressedMultiTexSubImage2DEXT");
-			bindGLFunc(cast(void**)&glCompressedMultiTexSubImage1DEXT, "glCompressedMultiTexSubImage1DEXT");
-			bindGLFunc(cast(void**)&glGetCompressedMultiTexImageEXT, "glGetCompressedMultiTexImageEXT");
-			bindGLFunc(cast(void**)&glMatrixLoadTransposefEXT, "glMatrixLoadTransposefEXT");
-			bindGLFunc(cast(void**)&glMatrixLoadTransposedEXT, "glMatrixLoadTransposedEXT");
-			bindGLFunc(cast(void**)&glMatrixMultTransposefEXT, "glMatrixMultTransposefEXT");
-			bindGLFunc(cast(void**)&glMatrixMultTransposedEXT, "glMatrixMultTransposedEXT");
-		}
-		
-		if(glversion >= GLVersion.GL15) {
-			bindGLFunc(cast(void**)&glNamedBufferDataEXT, "glNamedBufferDataEXT");
-			bindGLFunc(cast(void**)&glNamedBufferSubDataEXT, "glNamedBufferSubDataEXT");
-			bindGLFunc(cast(void**)&glMapNamedBufferEXT, "glMapNamedBufferEXT");
-			bindGLFunc(cast(void**)&glUnmapNamedBufferEXT, "glUnmapNamedBufferEXT");
-			bindGLFunc(cast(void**)&glGetNamedBufferParameterivEXT, "glGetNamedBufferParameterivEXT");
-			bindGLFunc(cast(void**)&glGetNamedBufferPointervEXT, "glGetNamedBufferPointervEXT");
-			bindGLFunc(cast(void**)&glGetNamedBufferSubDataEXT, "glGetNamedBufferSubDataEXT");
-		}
-		
-		if(glversion >= GLVersion.GL20) {
-			bindGLFunc(cast(void**)&glProgramUniform1fEXT, "glProgramUniform1fEXT");
-			bindGLFunc(cast(void**)&glProgramUniform2fEXT, "glProgramUniform2fEXT");
-			bindGLFunc(cast(void**)&glProgramUniform3fEXT, "glProgramUniform3fEXT");
-			bindGLFunc(cast(void**)&glProgramUniform4fEXT, "glProgramUniform4fEXT");
-			bindGLFunc(cast(void**)&glProgramUniform1iEXT, "glProgramUniform1iEXT");
-			bindGLFunc(cast(void**)&glProgramUniform2iEXT, "glProgramUniform2iEXT");
-			bindGLFunc(cast(void**)&glProgramUniform3iEXT, "glProgramUniform3iEXT");
-			bindGLFunc(cast(void**)&glProgramUniform4iEXT, "glProgramUniform4iEXT");
-			bindGLFunc(cast(void**)&glProgramUniform1fvEXT, "glProgramUniform1fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniform2fvEXT, "glProgramUniform2fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniform3fvEXT, "glProgramUniform3fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniform4fvEXT, "glProgramUniform4fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniform1ivEXT, "glProgramUniform1ivEXT");
-			bindGLFunc(cast(void**)&glProgramUniform2ivEXT, "glProgramUniform2ivEXT");
-			bindGLFunc(cast(void**)&glProgramUniform3ivEXT, "glProgramUniform3ivEXT");
-			bindGLFunc(cast(void**)&glProgramUniform4ivEXT, "glProgramUniform4ivEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix2fvEXT, "glProgramUniformMatrix2fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix3fvEXT, "glProgramUniformMatrix3fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix4fvEXT, "glProgramUniformMatrix4fvEXT");
-		}
-		
-		if(glversion >= GLVersion.GL21) {
-			bindGLFunc(cast(void**)&glProgramUniformMatrix2x3fvEXT, "glProgramUniformMatrix2x3fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix3x2fvEXT, "glProgramUniformMatrix3x2fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix2x4fvEXT, "glProgramUniformMatrix2x4fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix4x2fvEXT, "glProgramUniformMatrix4x2fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix3x4fvEXT, "glProgramUniformMatrix3x4fvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix4x3fvEXT, "glProgramUniformMatrix4x3fvEXT");
-		}
-		
-		if(glversion >= GLVersion.GL30) {
-			bindGLFunc(cast(void**)&glEnableClientStateiEXT, "glEnableClientStateiEXT");
-			bindGLFunc(cast(void**)&glDisableClientStateiEXT, "glDisableClientStateiEXT");
-			bindGLFunc(cast(void**)&glGetFloati_vEXT, "glGetFloati_vEXT");
-			bindGLFunc(cast(void**)&glGetDoublei_vEXT, "glGetDoublei_vEXT");
-			bindGLFunc(cast(void**)&glGetPointeri_vEXT, "glGetPointeri_vEXT");
-			bindGLFunc(cast(void**)&glNamedRenderbufferStorageEXT, "glNamedRenderbufferStorageEXT");
-			bindGLFunc(cast(void**)&glGetNamedRenderbufferParameterivEXT, "glGetNamedRenderbufferParameterivEXT");
-			bindGLFunc(cast(void**)&glNamedRenderbufferStorageMultisampleEXT, "glNamedRenderbufferStorageMultisampleEXT");
-			bindGLFunc(cast(void**)&glCheckNamedFramebufferStatusEXT, "glCheckNamedFramebufferStatusEXT");
-			bindGLFunc(cast(void**)&glNamedFramebufferTexture1DEXT, "glNamedFramebufferTexture1DEXT");
-			bindGLFunc(cast(void**)&glNamedFramebufferTexture2DEXT, "glNamedFramebufferTexture2DEXT");
-			bindGLFunc(cast(void**)&glNamedFramebufferTexture3DEXT, "glNamedFramebufferTexture3DEXT");
-			bindGLFunc(cast(void**)&glNamedFramebufferRenderbufferEXT, "glNamedFramebufferRenderbufferEXT");
-			bindGLFunc(cast(void**)&glGetNamedFramebufferAttachmentParameterivEXT, "glGetNamedFramebufferAttachmentParameterivEXT");
-			bindGLFunc(cast(void**)&glGenerateTextureMipmapEXT, "glGenerateTextureMipmapEXT");
-			bindGLFunc(cast(void**)&glGenerateMultiTexMipmapEXT, "glGenerateMultiTexMipmapEXT");
-			bindGLFunc(cast(void**)&glFramebufferDrawBufferEXT, "glFramebufferDrawBufferEXT");
-			bindGLFunc(cast(void**)&glFramebufferDrawBuffersEXT, "glFramebufferDrawBuffersEXT");
-			bindGLFunc(cast(void**)&glFramebufferReadBufferEXT, "glFramebufferReadBufferEXT");
-			bindGLFunc(cast(void**)&glGetFramebufferParameterivEXT, "glGetFramebufferParameterivEXT");
-			bindGLFunc(cast(void**)&glNamedCopyBufferSubDataEXT, "glNamedCopyBufferSubDataEXT");
-			bindGLFunc(cast(void**)&glVertexArrayVertexOffsetEXT, "glVertexArrayVertexOffsetEXT");
-			bindGLFunc(cast(void**)&glVertexArrayColorOffsetEXT, "glVertexArrayColorOffsetEXT");
-			bindGLFunc(cast(void**)&glVertexArrayEdgeFlagOffsetEXT, "glVertexArrayEdgeFlagOffsetEXT");
-			bindGLFunc(cast(void**)&glVertexArrayIndexOffsetEXT, "glVertexArrayIndexOffsetEXT");
-			bindGLFunc(cast(void**)&glVertexArrayNormalOffsetEXT, "glVertexArrayNormalOffsetEXT");
-			bindGLFunc(cast(void**)&glVertexArrayTexCoordOffsetEXT, "glVertexArrayTexCoordOffsetEXT");
-			bindGLFunc(cast(void**)&glVertexArrayMultiTexCoordOffsetEXT, "glVertexArrayMultiTexCoordOffsetEXT");
-			bindGLFunc(cast(void**)&glVertexArrayFogCoordOffsetEXT, "glVertexArrayFogCoordOffsetEXT");
-			bindGLFunc(cast(void**)&glVertexArraySecondaryColorOffsetEXT, "glVertexArraySecondaryColorOffsetEXT");
-			bindGLFunc(cast(void**)&glVertexArrayVertexAttribOffsetEXT, "glVertexArrayVertexAttribOffsetEXT");
-			bindGLFunc(cast(void**)&glVertexArrayVertexAttribIOffsetEXT, "glVertexArrayVertexAttribIOffsetEXT");
-			bindGLFunc(cast(void**)&glEnableVertexArrayEXT, "glEnableVertexArrayEXT");
-			bindGLFunc(cast(void**)&glDisableVertexArrayEXT, "glDisableVertexArrayEXT");
-			bindGLFunc(cast(void**)&glEnableVertexArrayAttribEXT, "glEnableVertexArrayAttribEXT");
-			bindGLFunc(cast(void**)&glDisableVertexArrayAttribEXT, "glDisableVertexArrayAttribEXT");
-			bindGLFunc(cast(void**)&glGetVertexArrayIntegervEXT, "glGetVertexArrayIntegervEXT");
-			bindGLFunc(cast(void**)&glGetVertexArrayPointervEXT, "glGetVertexArrayPointervEXT");
-			bindGLFunc(cast(void**)&glGetVertexArrayIntegeri_vEXT, "glGetVertexArrayIntegeri_vEXT");
-			bindGLFunc(cast(void**)&glGetVertexArrayPointeri_vEXT, "glGetVertexArrayPointeri_vEXT");
-			bindGLFunc(cast(void**)&glMapNamedBufferRangeEXT, "glMapNamedBufferRangeEXT");
-			bindGLFunc(cast(void**)&glFlushMappedNamedBufferRangeEXT, "glFlushMappedNamedBufferRangeEXT");
-		}
-		
-		if (isExtSupported(glversion, "GL_EXT_draw_buffers2")) {
-			bindGLFunc(cast(void**)&glEnableIndexedEXT, "glEnableIndexedEXT");
-			bindGLFunc(cast(void**)&glDisableIndexedEXT, "glDisableIndexedEXT");
-			bindGLFunc(cast(void**)&glIsEnabledIndexedEXT, "glIsEnabledIndexedEXT");
-			bindGLFunc(cast(void**)&glGetIntegerIndexedvEXT, "glGetIntegerIndexedvEXT");
-			bindGLFunc(cast(void**)&glGetBooleanIndexedvEXT, "glGetBooleanIndexedvEXT");
-		}
-		
-		if (isExtSupported(glversion, "GL_ARB_vertex_program")) {
-			bindGLFunc(cast(void**)&glNamedProgramStringEXT, "glNamedProgramStringEXT");
-			bindGLFunc(cast(void**)&glNamedProgramLocalParameter4dEXT, "glNamedProgramLocalParameter4dEXT");
-			bindGLFunc(cast(void**)&glNamedProgramLocalParameter4dvEXT, "glNamedProgramLocalParameter4dvEXT");
-			bindGLFunc(cast(void**)&glNamedProgramLocalParameter4fEXT, "glNamedProgramLocalParameter4fEXT");
-			bindGLFunc(cast(void**)&glNamedProgramLocalParameter4fvEXT, "glNamedProgramLocalParameter4fvEXT");
-			bindGLFunc(cast(void**)&glGetNamedProgramLocalParameterdvEXT, "glGetNamedProgramLocalParameterdvEXT");
-			bindGLFunc(cast(void**)&glGetNamedProgramLocalParameterfvEXT, "glGetNamedProgramLocalParameterfvEXT");
-			bindGLFunc(cast(void**)&glGetNamedProgramivEXT, "glGetNamedProgramivEXT");
-			bindGLFunc(cast(void**)&glGetNamedProgramStringEXT, "glGetNamedProgramStringEXT");
-		}
+        if(glversion >= GLVersion.GL11)
+        {
+            bindGLFunc(cast(void**)&glClientAttribDefaultEXT, "glClientAttribDefaultEXT");
+            bindGLFunc(cast(void**)&glPushClientAttribDefaultEXT, "glPushClientAttribDefaultEXT");
+            bindGLFunc(cast(void**)&glMatrixLoadfEXT, "glMatrixLoadfEXT");
+            bindGLFunc(cast(void**)&glMatrixLoaddEXT, "glMatrixLoaddEXT");
+            bindGLFunc(cast(void**)&glMatrixMultfEXT, "glMatrixMultfEXT");
+            bindGLFunc(cast(void**)&glMatrixMultdEXT, "glMatrixMultdEXT");
+            bindGLFunc(cast(void**)&glMatrixLoadIdentityEXT, "glMatrixLoadIdentityEXT");
+            bindGLFunc(cast(void**)&glMatrixRotatefEXT, "glMatrixRotatefEXT");
+            bindGLFunc(cast(void**)&glMatrixRotatedEXT, "glMatrixRotatedEXT");
+            bindGLFunc(cast(void**)&glMatrixScalefEXT, "glMatrixScalefEXT");
+            bindGLFunc(cast(void**)&glMatrixScaledEXT, "glMatrixScaledEXT");
+            bindGLFunc(cast(void**)&glMatrixTranslatefEXT, "glMatrixTranslatefEXT");
+            bindGLFunc(cast(void**)&glMatrixTranslatedEXT, "glMatrixTranslatedEXT");
+            bindGLFunc(cast(void**)&glMatrixOrthoEXT, "glMatrixOrthoEXT");
+            bindGLFunc(cast(void**)&glMatrixFrustumEXT, "glMatrixFrustumEXT");
+            bindGLFunc(cast(void**)&glMatrixPushEXT, "glMatrixPushEXT");
+            bindGLFunc(cast(void**)&glMatrixPopEXT, "glMatrixPopEXT");
+            bindGLFunc(cast(void**)&glTextureParameteriEXT, "glTextureParameteriEXT");
+            bindGLFunc(cast(void**)&glTextureParameterivEXT, "glTextureParameterivEXT");
+            bindGLFunc(cast(void**)&glTextureParameterfEXT, "glTextureParameterfEXT");
+            bindGLFunc(cast(void**)&glTextureParameterfvEXT, "glTextureParameterfvEXT");
+            bindGLFunc(cast(void**)&glTextureImage1DEXT, "glTextureImage1DEXT");
+            bindGLFunc(cast(void**)&glTextureImage2DEXT, "glTextureImage2DEXT");
+            bindGLFunc(cast(void**)&glTextureSubImage1DEXT, "glTextureSubImage1DEXT");
+            bindGLFunc(cast(void**)&glTextureSubImage2DEXT, "glTextureSubImage2DEXT");
+            bindGLFunc(cast(void**)&glCopyTextureImage1DEXT, "glCopyTextureImage1DEXT");
+            bindGLFunc(cast(void**)&glCopyTextureImage2DEXT, "glCopyTextureImage2DEXT");
+            bindGLFunc(cast(void**)&glCopyTextureSubImage1DEXT, "glCopyTextureSubImage1DEXT");
+            bindGLFunc(cast(void**)&glCopyTextureSubImage2DEXT, "glCopyTextureSubImage2DEXT");
+            bindGLFunc(cast(void**)&glGetTextureImageEXT, "glGetTextureImageEXT");
+            bindGLFunc(cast(void**)&glGetTextureParameterfvEXT, "glGetTextureParameterfvEXT");
+            bindGLFunc(cast(void**)&glGetTextureParameterivEXT, "glGetTextureParameterivEXT");
+            bindGLFunc(cast(void**)&glGetTextureLevelParameterfvEXT, "glGetTextureLevelParameterfvEXT");
+            bindGLFunc(cast(void**)&glGetTextureLevelParameterivEXT, "glGetTextureLevelParameterivEXT");
+        }
+        
+        if(glversion >= GLVersion.GL12)
+        {
+            bindGLFunc(cast(void**)&glTextureImage3DEXT, "glTextureImage3DEXT");
+            bindGLFunc(cast(void**)&glTextureSubImage3DEXT, "glTextureSubImage3DEXT");
+            bindGLFunc(cast(void**)&glCopyTextureSubImage3DEXT, "glCopyTextureSubImage3DEXT");
+            bindGLFunc(cast(void**)&glBindMultiTextureEXT, "glBindMultiTextureEXT");
+            bindGLFunc(cast(void**)&glMultiTexCoordPointerEXT, "glMultiTexCoordPointerEXT");
+            bindGLFunc(cast(void**)&glMultiTexEnvfEXT, "glMultiTexEnvfEXT");
+            bindGLFunc(cast(void**)&glMultiTexEnvfvEXT, "glMultiTexEnvfvEXT");
+            bindGLFunc(cast(void**)&glMultiTexEnviEXT, "glMultiTexEnviEXT");
+            bindGLFunc(cast(void**)&glMultiTexEnvivEXT, "glMultiTexEnvivEXT");
+            bindGLFunc(cast(void**)&glMultiTexGendEXT, "glMultiTexGendEXT");
+            bindGLFunc(cast(void**)&glMultiTexGendvEXT, "glMultiTexGendvEXT");
+            bindGLFunc(cast(void**)&glMultiTexGenfEXT, "glMultiTexGenfEXT");
+            bindGLFunc(cast(void**)&glMultiTexGenfvEXT, "glMultiTexGenfvEXT");
+            bindGLFunc(cast(void**)&glMultiTexGeniEXT, "glMultiTexGeniEXT");
+            bindGLFunc(cast(void**)&glMultiTexGenivEXT, "glMultiTexGenivEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexEnvfvEXT, "glGetMultiTexEnvfvEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexEnvivEXT, "glGetMultiTexEnvivEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexGendvEXT, "glGetMultiTexGendvEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexGenfvEXT, "glGetMultiTexGenfvEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexGenivEXT, "glGetMultiTexGenivEXT");
+            bindGLFunc(cast(void**)&glMultiTexParameteriEXT, "glMultiTexParameteriEXT");
+            bindGLFunc(cast(void**)&glMultiTexParameterivEXT, "glMultiTexParameterivEXT");
+            bindGLFunc(cast(void**)&glMultiTexParameterfEXT, "glMultiTexParameterfEXT");
+            bindGLFunc(cast(void**)&glMultiTexParameterfvEXT, "glMultiTexParameterfvEXT");
+            bindGLFunc(cast(void**)&glMultiTexImage1DEXT, "glMultiTexImage1DEXT");
+            bindGLFunc(cast(void**)&glMultiTexImage2DEXT, "glMultiTexImage2DEXT");
+            bindGLFunc(cast(void**)&glMultiTexSubImage1DEXT, "glMultiTexSubImage1DEXT");
+            bindGLFunc(cast(void**)&glMultiTexSubImage2DEXT, "glMultiTexSubImage2DEXT");
+            bindGLFunc(cast(void**)&glCopyMultiTexImage1DEXT, "glCopyMultiTexImage1DEXT");
+            bindGLFunc(cast(void**)&glCopyMultiTexImage2DEXT, "glCopyMultiTexImage2DEXT");
+            bindGLFunc(cast(void**)&glCopyMultiTexSubImage1DEXT, "glCopyMultiTexSubImage1DEXT");
+            bindGLFunc(cast(void**)&glCopyMultiTexSubImage2DEXT, "glCopyMultiTexSubImage2DEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexImageEXT, "glGetMultiTexImageEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexParameterfvEXT, "glGetMultiTexParameterfvEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexParameterivEXT, "glGetMultiTexParameterivEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexLevelParameterfvEXT, "glGetMultiTexLevelParameterfvEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexLevelParameterivEXT, "glGetMultiTexLevelParameterivEXT");
+            bindGLFunc(cast(void**)&glMultiTexImage3DEXT, "glMultiTexImage3DEXT");
+            bindGLFunc(cast(void**)&glMultiTexSubImage3DEXT, "glMultiTexSubImage3DEXT");
+            bindGLFunc(cast(void**)&glCopyMultiTexSubImage3DEXT, "glCopyMultiTexSubImage3DEXT");
+            bindGLFunc(cast(void**)&glEnableClientStateIndexedEXT, "glEnableClientStateIndexedEXT");
+            bindGLFunc(cast(void**)&glDisableClientStateIndexedEXT, "glDisableClientStateIndexedEXT");
+            bindGLFunc(cast(void**)&glGetFloatIndexedvEXT, "glGetFloatIndexedvEXT");
+            bindGLFunc(cast(void**)&glGetDoubleIndexedvEXT, "glGetDoubleIndexedvEXT");
+            bindGLFunc(cast(void**)&glGetPointerIndexedvEXT, "glGetPointerIndexedvEXT");
+        }
+        
+        if(glversion >= GLVersion.GL13)
+        {
+            bindGLFunc(cast(void**)&glCompressedTextureImage3DEXT, "glCompressedTextureImage3DEXT");
+            bindGLFunc(cast(void**)&glCompressedTextureImage2DEXT, "glCompressedTextureImage2DEXT");
+            bindGLFunc(cast(void**)&glCompressedTextureImage1DEXT, "glCompressedTextureImage1DEXT");
+            bindGLFunc(cast(void**)&glCompressedTextureSubImage3DEXT, "glCompressedTextureSubImage3DEXT");
+            bindGLFunc(cast(void**)&glCompressedTextureSubImage2DEXT, "glCompressedTextureSubImage2DEXT");
+            bindGLFunc(cast(void**)&glCompressedTextureSubImage1DEXT, "glCompressedTextureSubImage1DEXT");
+            bindGLFunc(cast(void**)&glGetCompressedTextureImageEXT, "glGetCompressedTextureImageEXT");
+            bindGLFunc(cast(void**)&glCompressedMultiTexImage3DEXT, "glCompressedMultiTexImage3DEXT");
+            bindGLFunc(cast(void**)&glCompressedMultiTexImage2DEXT, "glCompressedMultiTexImage2DEXT");
+            bindGLFunc(cast(void**)&glCompressedMultiTexImage1DEXT, "glCompressedMultiTexImage1DEXT");
+            bindGLFunc(cast(void**)&glCompressedMultiTexSubImage3DEXT, "glCompressedMultiTexSubImage3DEXT");
+            bindGLFunc(cast(void**)&glCompressedMultiTexSubImage2DEXT, "glCompressedMultiTexSubImage2DEXT");
+            bindGLFunc(cast(void**)&glCompressedMultiTexSubImage1DEXT, "glCompressedMultiTexSubImage1DEXT");
+            bindGLFunc(cast(void**)&glGetCompressedMultiTexImageEXT, "glGetCompressedMultiTexImageEXT");
+            bindGLFunc(cast(void**)&glMatrixLoadTransposefEXT, "glMatrixLoadTransposefEXT");
+            bindGLFunc(cast(void**)&glMatrixLoadTransposedEXT, "glMatrixLoadTransposedEXT");
+            bindGLFunc(cast(void**)&glMatrixMultTransposefEXT, "glMatrixMultTransposefEXT");
+            bindGLFunc(cast(void**)&glMatrixMultTransposedEXT, "glMatrixMultTransposedEXT");
+        }
+        
+        if(glversion >= GLVersion.GL15)
+        {
+            bindGLFunc(cast(void**)&glNamedBufferDataEXT, "glNamedBufferDataEXT");
+            bindGLFunc(cast(void**)&glNamedBufferSubDataEXT, "glNamedBufferSubDataEXT");
+            bindGLFunc(cast(void**)&glMapNamedBufferEXT, "glMapNamedBufferEXT");
+            bindGLFunc(cast(void**)&glUnmapNamedBufferEXT, "glUnmapNamedBufferEXT");
+            bindGLFunc(cast(void**)&glGetNamedBufferParameterivEXT, "glGetNamedBufferParameterivEXT");
+            bindGLFunc(cast(void**)&glGetNamedBufferPointervEXT, "glGetNamedBufferPointervEXT");
+            bindGLFunc(cast(void**)&glGetNamedBufferSubDataEXT, "glGetNamedBufferSubDataEXT");
+        }
+        
+        if(glversion >= GLVersion.GL20)
+        {
+            bindGLFunc(cast(void**)&glProgramUniform1fEXT, "glProgramUniform1fEXT");
+            bindGLFunc(cast(void**)&glProgramUniform2fEXT, "glProgramUniform2fEXT");
+            bindGLFunc(cast(void**)&glProgramUniform3fEXT, "glProgramUniform3fEXT");
+            bindGLFunc(cast(void**)&glProgramUniform4fEXT, "glProgramUniform4fEXT");
+            bindGLFunc(cast(void**)&glProgramUniform1iEXT, "glProgramUniform1iEXT");
+            bindGLFunc(cast(void**)&glProgramUniform2iEXT, "glProgramUniform2iEXT");
+            bindGLFunc(cast(void**)&glProgramUniform3iEXT, "glProgramUniform3iEXT");
+            bindGLFunc(cast(void**)&glProgramUniform4iEXT, "glProgramUniform4iEXT");
+            bindGLFunc(cast(void**)&glProgramUniform1fvEXT, "glProgramUniform1fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniform2fvEXT, "glProgramUniform2fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniform3fvEXT, "glProgramUniform3fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniform4fvEXT, "glProgramUniform4fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniform1ivEXT, "glProgramUniform1ivEXT");
+            bindGLFunc(cast(void**)&glProgramUniform2ivEXT, "glProgramUniform2ivEXT");
+            bindGLFunc(cast(void**)&glProgramUniform3ivEXT, "glProgramUniform3ivEXT");
+            bindGLFunc(cast(void**)&glProgramUniform4ivEXT, "glProgramUniform4ivEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix2fvEXT, "glProgramUniformMatrix2fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix3fvEXT, "glProgramUniformMatrix3fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix4fvEXT, "glProgramUniformMatrix4fvEXT");
+        }
+        
+        if(glversion >= GLVersion.GL21)
+        {
+            bindGLFunc(cast(void**)&glProgramUniformMatrix2x3fvEXT, "glProgramUniformMatrix2x3fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix3x2fvEXT, "glProgramUniformMatrix3x2fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix2x4fvEXT, "glProgramUniformMatrix2x4fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix4x2fvEXT, "glProgramUniformMatrix4x2fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix3x4fvEXT, "glProgramUniformMatrix3x4fvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix4x3fvEXT, "glProgramUniformMatrix4x3fvEXT");
+        }
+        
+        if(glversion >= GLVersion.GL30)
+        {
+            try
+            {
+                bindGLFunc(cast(void**)&glEnableClientStateiEXT, "glEnableClientStateiEXT");
+                bindGLFunc(cast(void**)&glDisableClientStateiEXT, "glDisableClientStateiEXT");
+                bindGLFunc(cast(void**)&glGetFloati_vEXT, "glGetFloati_vEXT");
+                bindGLFunc(cast(void**)&glGetDoublei_vEXT, "glGetDoublei_vEXT");
+                bindGLFunc(cast(void**)&glGetPointeri_vEXT, "glGetPointeri_vEXT");
+            } 
+            catch(Exception e)
+            {
+                bindGLFunc(cast(void**)&glEnableClientStateiEXT, "glEnableClientStateIndexedEXT");
+                bindGLFunc(cast(void**)&glDisableClientStateiEXT, "glDisableClientStateIndexedEXT");            
+                bindGLFunc(cast(void**)&glGetFloati_vEXT, "glGetFloatIndexedvEXT");
+                bindGLFunc(cast(void**)&glGetDoublei_vEXT, "glGetDoubleIndexedvEXT");
+                bindGLFunc(cast(void**)&glGetPointeri_vEXT, "glGetPointerIndexedvEXT");
+            }
+            
+            bindGLFunc(cast(void**)&glNamedRenderbufferStorageEXT, "glNamedRenderbufferStorageEXT");
+            bindGLFunc(cast(void**)&glGetNamedRenderbufferParameterivEXT, "glGetNamedRenderbufferParameterivEXT");
+            bindGLFunc(cast(void**)&glNamedRenderbufferStorageMultisampleEXT, "glNamedRenderbufferStorageMultisampleEXT");
+            bindGLFunc(cast(void**)&glCheckNamedFramebufferStatusEXT, "glCheckNamedFramebufferStatusEXT");
+            bindGLFunc(cast(void**)&glNamedFramebufferTexture1DEXT, "glNamedFramebufferTexture1DEXT");
+            bindGLFunc(cast(void**)&glNamedFramebufferTexture2DEXT, "glNamedFramebufferTexture2DEXT");
+            bindGLFunc(cast(void**)&glNamedFramebufferTexture3DEXT, "glNamedFramebufferTexture3DEXT");
+            bindGLFunc(cast(void**)&glNamedFramebufferRenderbufferEXT, "glNamedFramebufferRenderbufferEXT");
+            bindGLFunc(cast(void**)&glGetNamedFramebufferAttachmentParameterivEXT, "glGetNamedFramebufferAttachmentParameterivEXT");
+            bindGLFunc(cast(void**)&glGenerateTextureMipmapEXT, "glGenerateTextureMipmapEXT");
+            bindGLFunc(cast(void**)&glGenerateMultiTexMipmapEXT, "glGenerateMultiTexMipmapEXT");
+            bindGLFunc(cast(void**)&glFramebufferDrawBufferEXT, "glFramebufferDrawBufferEXT");
+            bindGLFunc(cast(void**)&glFramebufferDrawBuffersEXT, "glFramebufferDrawBuffersEXT");
+            bindGLFunc(cast(void**)&glFramebufferReadBufferEXT, "glFramebufferReadBufferEXT");
+            bindGLFunc(cast(void**)&glGetFramebufferParameterivEXT, "glGetFramebufferParameterivEXT");
+            bindGLFunc(cast(void**)&glNamedCopyBufferSubDataEXT, "glNamedCopyBufferSubDataEXT");
+            bindGLFunc(cast(void**)&glVertexArrayVertexOffsetEXT, "glVertexArrayVertexOffsetEXT");
+            bindGLFunc(cast(void**)&glVertexArrayColorOffsetEXT, "glVertexArrayColorOffsetEXT");
+            bindGLFunc(cast(void**)&glVertexArrayEdgeFlagOffsetEXT, "glVertexArrayEdgeFlagOffsetEXT");
+            bindGLFunc(cast(void**)&glVertexArrayIndexOffsetEXT, "glVertexArrayIndexOffsetEXT");
+            bindGLFunc(cast(void**)&glVertexArrayNormalOffsetEXT, "glVertexArrayNormalOffsetEXT");
+            bindGLFunc(cast(void**)&glVertexArrayTexCoordOffsetEXT, "glVertexArrayTexCoordOffsetEXT");
+            bindGLFunc(cast(void**)&glVertexArrayMultiTexCoordOffsetEXT, "glVertexArrayMultiTexCoordOffsetEXT");
+            bindGLFunc(cast(void**)&glVertexArrayFogCoordOffsetEXT, "glVertexArrayFogCoordOffsetEXT");
+            bindGLFunc(cast(void**)&glVertexArraySecondaryColorOffsetEXT, "glVertexArraySecondaryColorOffsetEXT");
+            bindGLFunc(cast(void**)&glVertexArrayVertexAttribOffsetEXT, "glVertexArrayVertexAttribOffsetEXT");
+            bindGLFunc(cast(void**)&glVertexArrayVertexAttribIOffsetEXT, "glVertexArrayVertexAttribIOffsetEXT");
+            bindGLFunc(cast(void**)&glEnableVertexArrayEXT, "glEnableVertexArrayEXT");
+            bindGLFunc(cast(void**)&glDisableVertexArrayEXT, "glDisableVertexArrayEXT");
+            bindGLFunc(cast(void**)&glEnableVertexArrayAttribEXT, "glEnableVertexArrayAttribEXT");
+            bindGLFunc(cast(void**)&glDisableVertexArrayAttribEXT, "glDisableVertexArrayAttribEXT");
+            bindGLFunc(cast(void**)&glGetVertexArrayIntegervEXT, "glGetVertexArrayIntegervEXT");
+            bindGLFunc(cast(void**)&glGetVertexArrayPointervEXT, "glGetVertexArrayPointervEXT");
+            bindGLFunc(cast(void**)&glGetVertexArrayIntegeri_vEXT, "glGetVertexArrayIntegeri_vEXT");
+            bindGLFunc(cast(void**)&glGetVertexArrayPointeri_vEXT, "glGetVertexArrayPointeri_vEXT");
+            bindGLFunc(cast(void**)&glMapNamedBufferRangeEXT, "glMapNamedBufferRangeEXT");
+            bindGLFunc(cast(void**)&glFlushMappedNamedBufferRangeEXT, "glFlushMappedNamedBufferRangeEXT");
+        }
+        
+        if (isExtSupported(glversion, "GL_EXT_draw_buffers2"))
+        {
+            bindGLFunc(cast(void**)&glEnableIndexedEXT, "glEnableIndexedEXT");
+            bindGLFunc(cast(void**)&glDisableIndexedEXT, "glDisableIndexedEXT");
+            bindGLFunc(cast(void**)&glIsEnabledIndexedEXT, "glIsEnabledIndexedEXT");
+            bindGLFunc(cast(void**)&glGetIntegerIndexedvEXT, "glGetIntegerIndexedvEXT");
+            bindGLFunc(cast(void**)&glGetBooleanIndexedvEXT, "glGetBooleanIndexedvEXT");
+        }
+        
+        if (isExtSupported(glversion, "GL_ARB_vertex_program"))
+        {
+            bindGLFunc(cast(void**)&glNamedProgramStringEXT, "glNamedProgramStringEXT");
+            bindGLFunc(cast(void**)&glNamedProgramLocalParameter4dEXT, "glNamedProgramLocalParameter4dEXT");
+            bindGLFunc(cast(void**)&glNamedProgramLocalParameter4dvEXT, "glNamedProgramLocalParameter4dvEXT");
+            bindGLFunc(cast(void**)&glNamedProgramLocalParameter4fEXT, "glNamedProgramLocalParameter4fEXT");
+            bindGLFunc(cast(void**)&glNamedProgramLocalParameter4fvEXT, "glNamedProgramLocalParameter4fvEXT");
+            bindGLFunc(cast(void**)&glGetNamedProgramLocalParameterdvEXT, "glGetNamedProgramLocalParameterdvEXT");
+            bindGLFunc(cast(void**)&glGetNamedProgramLocalParameterfvEXT, "glGetNamedProgramLocalParameterfvEXT");
+            bindGLFunc(cast(void**)&glGetNamedProgramivEXT, "glGetNamedProgramivEXT");
+            bindGLFunc(cast(void**)&glGetNamedProgramStringEXT, "glGetNamedProgramStringEXT");
+        }
 
-		if (isExtSupported(glversion, "GL_EXT_texture_buffer_object")) {
-			bindGLFunc(cast(void**)&glTextureBufferEXT, "glTextureBufferEXT");
-			bindGLFunc(cast(void**)&glMultiTexBufferEXT, "glMultiTexBufferEXT");
-		}
+        if (isExtSupported(glversion, "GL_EXT_texture_buffer_object"))
+        {
+            bindGLFunc(cast(void**)&glTextureBufferEXT, "glTextureBufferEXT");
+            bindGLFunc(cast(void**)&glMultiTexBufferEXT, "glMultiTexBufferEXT");
+        }
 
-		if (isExtSupported(glversion, "GL_EXT_texture_integer")) {
-			bindGLFunc(cast(void**)&glTextureParameterIivEXT, "glTextureParameterIivEXT");
-			bindGLFunc(cast(void**)&glTextureParameterIuivEXT, "glTextureParameterIuivEXT");
-			bindGLFunc(cast(void**)&glGetTextureParameterIivEXT, "glGetTextureParameterIivEXT");
-			bindGLFunc(cast(void**)&glGetTextureParameterIuivEXT, "glGetTextureParameterIuivEXT");
-			bindGLFunc(cast(void**)&glMultiTexParameterIivEXT, "glMultiTexParameterIivEXT");
-			bindGLFunc(cast(void**)&glMultiTexParameterIuivEXT, "glMultiTexParameterIuivEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexParameterIivEXT, "glGetMultiTexParameterIivEXT");
-			bindGLFunc(cast(void**)&glGetMultiTexParameterIuivEXT, "glGetMultiTexParameterIuivEXT");
-		}
+        if (isExtSupported(glversion, "GL_EXT_texture_integer"))
+        {
+            bindGLFunc(cast(void**)&glTextureParameterIivEXT, "glTextureParameterIivEXT");
+            bindGLFunc(cast(void**)&glTextureParameterIuivEXT, "glTextureParameterIuivEXT");
+            bindGLFunc(cast(void**)&glGetTextureParameterIivEXT, "glGetTextureParameterIivEXT");
+            bindGLFunc(cast(void**)&glGetTextureParameterIuivEXT, "glGetTextureParameterIuivEXT");
+            bindGLFunc(cast(void**)&glMultiTexParameterIivEXT, "glMultiTexParameterIivEXT");
+            bindGLFunc(cast(void**)&glMultiTexParameterIuivEXT, "glMultiTexParameterIuivEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexParameterIivEXT, "glGetMultiTexParameterIivEXT");
+            bindGLFunc(cast(void**)&glGetMultiTexParameterIuivEXT, "glGetMultiTexParameterIuivEXT");
+        }
 
-		if (isExtSupported(glversion, "GL_EXT_gpu_shader4")) {
-			bindGLFunc(cast(void**)&glProgramUniform1uiEXT, "glProgramUniform1uiEXT");
-			bindGLFunc(cast(void**)&glProgramUniform2uiEXT, "glProgramUniform2uiEXT");
-			bindGLFunc(cast(void**)&glProgramUniform3uiEXT, "glProgramUniform3uiEXT");
-			bindGLFunc(cast(void**)&glProgramUniform4uiEXT, "glProgramUniform4uiEXT");
-			bindGLFunc(cast(void**)&glProgramUniform1uivEXT, "glProgramUniform1uivEXT");
-			bindGLFunc(cast(void**)&glProgramUniform2uivEXT, "glProgramUniform2uivEXT");
-			bindGLFunc(cast(void**)&glProgramUniform3uivEXT, "glProgramUniform3uivEXT");
-			bindGLFunc(cast(void**)&glProgramUniform4uivEXT, "glProgramUniform4uivEXT");
-		}
+        if (isExtSupported(glversion, "GL_EXT_gpu_shader4"))
+        {
+            bindGLFunc(cast(void**)&glProgramUniform1uiEXT, "glProgramUniform1uiEXT");
+            bindGLFunc(cast(void**)&glProgramUniform2uiEXT, "glProgramUniform2uiEXT");
+            bindGLFunc(cast(void**)&glProgramUniform3uiEXT, "glProgramUniform3uiEXT");
+            bindGLFunc(cast(void**)&glProgramUniform4uiEXT, "glProgramUniform4uiEXT");
+            bindGLFunc(cast(void**)&glProgramUniform1uivEXT, "glProgramUniform1uivEXT");
+            bindGLFunc(cast(void**)&glProgramUniform2uivEXT, "glProgramUniform2uivEXT");
+            bindGLFunc(cast(void**)&glProgramUniform3uivEXT, "glProgramUniform3uivEXT");
+            bindGLFunc(cast(void**)&glProgramUniform4uivEXT, "glProgramUniform4uivEXT");
+        }
 
-		if (isExtSupported(glversion, "GL_EXT_gpu_program_parameters")) {
-			bindGLFunc(cast(void**)&glNamedProgramLocalParameters4fvEXT, "glNamedProgramLocalParameters4fvEXT");
-		}
+        if (isExtSupported(glversion, "GL_EXT_gpu_program_parameters"))
+        {
+            bindGLFunc(cast(void**)&glNamedProgramLocalParameters4fvEXT, "glNamedProgramLocalParameters4fvEXT");
+        }
 
-		if (isExtSupported(glversion, "GL_NV_gpu_program4")) {
-			bindGLFunc(cast(void**)&glNamedProgramLocalParameterI4iEXT, "glNamedProgramLocalParameterI4iEXT");
-			bindGLFunc(cast(void**)&glNamedProgramLocalParameterI4ivEXT, "glNamedProgramLocalParameterI4ivEXT");
-			bindGLFunc(cast(void**)&glNamedProgramLocalParametersI4ivEXT, "glNamedProgramLocalParametersI4ivEXT");
-			bindGLFunc(cast(void**)&glNamedProgramLocalParameterI4uiEXT, "glNamedProgramLocalParameterI4uiEXT");
-			bindGLFunc(cast(void**)&glNamedProgramLocalParameterI4uivEXT, "glNamedProgramLocalParameterI4uivEXT");
-			bindGLFunc(cast(void**)&glNamedProgramLocalParametersI4uivEXT, "glNamedProgramLocalParametersI4uivEXT");
-			bindGLFunc(cast(void**)&glGetNamedProgramLocalParameterIivEXT, "glGetNamedProgramLocalParameterIivEXT");
-			bindGLFunc(cast(void**)&glGetNamedProgramLocalParameterIuivEXT, "glGetNamedProgramLocalParameterIuivEXT");
-		}
+        if (isExtSupported(glversion, "GL_NV_gpu_program4"))
+        {
+            bindGLFunc(cast(void**)&glNamedProgramLocalParameterI4iEXT, "glNamedProgramLocalParameterI4iEXT");
+            bindGLFunc(cast(void**)&glNamedProgramLocalParameterI4ivEXT, "glNamedProgramLocalParameterI4ivEXT");
+            bindGLFunc(cast(void**)&glNamedProgramLocalParametersI4ivEXT, "glNamedProgramLocalParametersI4ivEXT");
+            bindGLFunc(cast(void**)&glNamedProgramLocalParameterI4uiEXT, "glNamedProgramLocalParameterI4uiEXT");
+            bindGLFunc(cast(void**)&glNamedProgramLocalParameterI4uivEXT, "glNamedProgramLocalParameterI4uivEXT");
+            bindGLFunc(cast(void**)&glNamedProgramLocalParametersI4uivEXT, "glNamedProgramLocalParametersI4uivEXT");
+            bindGLFunc(cast(void**)&glGetNamedProgramLocalParameterIivEXT, "glGetNamedProgramLocalParameterIivEXT");
+            bindGLFunc(cast(void**)&glGetNamedProgramLocalParameterIuivEXT, "glGetNamedProgramLocalParameterIuivEXT");
+        }
 
-		if (isExtSupported(glversion, "GL_NV_framebuffer_multisample_coverage")) {
-			bindGLFunc(cast(void**)&glNamedRenderbufferStorageMultisampleCoverageEXT, "glNamedRenderbufferStorageMultisampleCoverageEXT");
-		}
+        if (isExtSupported(glversion, "GL_NV_framebuffer_multisample_coverage"))
+        {
+            bindGLFunc(cast(void**)&glNamedRenderbufferStorageMultisampleCoverageEXT, "glNamedRenderbufferStorageMultisampleCoverageEXT");
+        }
 
-		if (isExtSupported(glversion, "GL_EXT_geometry_shader4") || isExtSupported(glversion, "GL_NV_gpu_program4")) {
-			bindGLFunc(cast(void**)&glNamedFramebufferTextureEXT, "glNamedFramebufferTextureEXT");
-			bindGLFunc(cast(void**)&glNamedFramebufferTextureLayerEXT, "glNamedFramebufferTextureLayerEXT");
-			bindGLFunc(cast(void**)&glNamedFramebufferTextureFaceEXT, "glNamedFramebufferTextureFaceEXT");
-		}
+        if (isExtSupported(glversion, "GL_EXT_geometry_shader4") || isExtSupported(glversion, "GL_NV_gpu_program4"))
+        {
+            bindGLFunc(cast(void**)&glNamedFramebufferTextureEXT, "glNamedFramebufferTextureEXT");
+            bindGLFunc(cast(void**)&glNamedFramebufferTextureLayerEXT, "glNamedFramebufferTextureLayerEXT");
+            bindGLFunc(cast(void**)&glNamedFramebufferTextureFaceEXT, "glNamedFramebufferTextureFaceEXT");
+        }
 
-		if (isExtSupported(glversion, "GL_NV_explicit_multisample")) {
-			bindGLFunc(cast(void**)&glTextureRenderbufferEXT, "glTextureRenderbufferEXT");
-			bindGLFunc(cast(void**)&glMultiTexRenderbufferEXT, "glMultiTexRenderbufferEXT");
-		}
-		
-		if (isExtSupported(glversion, "GL_ARB_gpu_shader_fp64")) {
-			bindGLFunc(cast(void**)&glProgramUniform1dEXT, "glProgramUniform1dEXT");
-			bindGLFunc(cast(void**)&glProgramUniform2dEXT, "glProgramUniform2dEXT");
-			bindGLFunc(cast(void**)&glProgramUniform3dEXT, "glProgramUniform3dEXT");
-			bindGLFunc(cast(void**)&glProgramUniform4dEXT, "glProgramUniform4dEXT");
-			bindGLFunc(cast(void**)&glProgramUniform1dvEXT, "glProgramUniform1dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniform2dvEXT, "glProgramUniform2dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniform3dvEXT, "glProgramUniform3dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniform4dvEXT, "glProgramUniform4dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix2dvEXT, "glProgramUniformMatrix2dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix3dvEXT, "glProgramUniformMatrix3dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix4dvEXT, "glProgramUniformMatrix4dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix2x3dvEXT, "glProgramUniformMatrix2x3dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix2x4dvEXT, "glProgramUniformMatrix2x4dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix3x2dvEXT, "glProgramUniformMatrix3x2dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix3x4dvEXT, "glProgramUniformMatrix3x4dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix4x2dvEXT, "glProgramUniformMatrix4x2dvEXT");
-			bindGLFunc(cast(void**)&glProgramUniformMatrix4x3dvEXT, "glProgramUniformMatrix4x3dvEXT");
-		}
-		
+        if (isExtSupported(glversion, "GL_NV_explicit_multisample"))
+        {
+            bindGLFunc(cast(void**)&glTextureRenderbufferEXT, "glTextureRenderbufferEXT");
+            bindGLFunc(cast(void**)&glMultiTexRenderbufferEXT, "glMultiTexRenderbufferEXT");
+        }
+        
+        if (isExtSupported(glversion, "GL_ARB_gpu_shader_fp64"))
+        {
+            bindGLFunc(cast(void**)&glProgramUniform1dEXT, "glProgramUniform1dEXT");
+            bindGLFunc(cast(void**)&glProgramUniform2dEXT, "glProgramUniform2dEXT");
+            bindGLFunc(cast(void**)&glProgramUniform3dEXT, "glProgramUniform3dEXT");
+            bindGLFunc(cast(void**)&glProgramUniform4dEXT, "glProgramUniform4dEXT");
+            bindGLFunc(cast(void**)&glProgramUniform1dvEXT, "glProgramUniform1dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniform2dvEXT, "glProgramUniform2dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniform3dvEXT, "glProgramUniform3dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniform4dvEXT, "glProgramUniform4dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix2dvEXT, "glProgramUniformMatrix2dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix3dvEXT, "glProgramUniformMatrix3dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix4dvEXT, "glProgramUniformMatrix4dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix2x3dvEXT, "glProgramUniformMatrix2x3dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix2x4dvEXT, "glProgramUniformMatrix2x4dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix3x2dvEXT, "glProgramUniformMatrix3x2dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix3x4dvEXT, "glProgramUniformMatrix3x4dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix4x2dvEXT, "glProgramUniformMatrix4x2dvEXT");
+            bindGLFunc(cast(void**)&glProgramUniformMatrix4x3dvEXT, "glProgramUniformMatrix4x3dvEXT");
+        }
+        
         _EXT_direct_state_access = true;
     }
     catch(Exception e)
